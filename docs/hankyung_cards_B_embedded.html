@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>한국경제 — 카드형 뉴스 (이미지 인라인)</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7fb;--card:#ffffff;--accent:#0b3b61;--muted:#6f7e8e}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,'Noto Sans KR',sans-serif;margin:0;background:var(--bg);color:#17202a}
+.header{background:var(--accent);color:#fff;padding:22px}
+.header .wrap{max-width:1100px;margin:0 auto;padding:0 18px;display:flex;align-items:center;justify-content:space-between}
+.header h1{margin:0;font-size:20px}
+.container{max-width:1100px;margin:22px auto;padding:0 18px}
+.controls{display:flex;gap:8px;margin-bottom:14px}
+.btn{background:#fff;border-radius:8px;padding:8px 12px;font-size:13px;color:var(--accent);border:none;cursor:pointer;box-shadow:0 6px 18px rgba(11,59,97,0.06)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:var(--card);border-radius:10px;overflow:hidden;box-shadow:0 8px 22px rgba(16,30,46,0.06);display:flex;flex-direction:column}
+.card .media{height:160px;background:#e6eef8;display:flex;align-items:center;justify-content:center}
+.card .media img{width:100%;height:100%;object-fit:cover;display:block}
+.card .body{padding:12px;flex:1;display:flex;flex-direction:column}
+.card h3{margin:0;font-size:16px;color:var(--accent)}
+.card p{margin:8px 0 12px;color:#333;flex:1;line-height:1.45;font-size:14px}
+.card .meta{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--muted)}
+.card a.read{background:var(--accent);color:#fff;padding:8px 10px;border-radius:8px;text-decoration:none;font-size:13px}
+@media (max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.grid{grid-template-columns:1fr}.header .wrap{flex-direction:column;align-items:flex-start}.controls{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <h1>한국경제 — 카드형 뉴스</h1>
+      <div style="font-size:13px;opacity:0.95">수집시각: 2026-02-01 12:30</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <button class="btn">전체</button>
+      <button class="btn">경제</button>
+      <button class="btn">증시</button>
+      <button class="btn">부동산</button>
+      <button class="btn">국제</button>
+    </div>
+
+    <section class="grid">
+
+      <article class="card">
+        <div class="media"><img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='480'%3E%3Crect width='100%25' height='100%25' fill='%23e6eef8'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter, Noto Sans KR, sans-serif' font-size='36' fill='%230b3b61'%3E%EA%B1%B4%EC%84%A4%EC%97%85%3C/text%3E%3C/svg%3E" alt="건설업"></div>
+        <div class="body">
+          <h3><a href="https://www.hankyung.com/article/2026013043571" target="_blank" rel="noopener">코스피 웃돈 건설업 지수 수익률</a></h3>
+          <p>건설업 지수가 연초 이후 26.6% 상승하며 코스피를 앞섰습니다. 원전 수주와 지방 주택시장 회복, 원가 안정으로 수익성 개선 기대.</p>
+          <div class="meta">
+            <span>한국경제</span>
+            <a class="read" href="https://www.hankyung.com/article/2026013043571" target="_blank" rel="noopener">원문 보기</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='480'%3E%3Crect width='100%25' height='100%25' fill='%23e6eef8'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter, Noto Sans KR, sans-serif' font-size='36' fill='%230b3b61'%3E%ED%8C%8C%EB%91%90%3C/text%3E%3C/svg%3E" alt="파두"></div>
+        <div class="body">
+          <h3><a href="https://www.hankyung.com/article/2026013043591" target="_blank" rel="noopener">'몸값 뻥튀기' 논란 파두, 거래정지 길어지나</a></h3>
+          <p>파두가 상장 과정 허위기재 혐의로 기소되어 거래가 중지된 상태. 거래소의 실질심사 대상 여부 결정이 관건이며, 재개까지 지연 가능성.</p>
+          <div class="meta">
+            <span>한국경제</span>
+            <a class="read" href="https://www.hankyung.com/article/2026013043591" target="_blank" rel="noopener">원문 보기</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='480'%3E%3Crect width='100%25' height='100%25' fill='%23e6eef8'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter, Noto Sans KR, sans-serif' font-size='32' fill='%230b3b61'%3E%EC%B2%AD%EB%85%84%ED%88%AC%EC%9E%90%3C/text%3E%3C/svg%3E" alt="청년투자"></div>
+        <div class="body">
+          <h3><a href="https://www.hankyung.com/article/2026013043561" target="_blank" rel="noopener">청년 투자고수 톱픽은 우주·반도체·로봇</a></h3>
+          <p>한경-타임폴리오 투자대회 상위권들이 우주·반도체·로봇 테마에 집중. 상위권 평균 수익률은 약 57%로 높은 성과를 보임.</p>
+          <div class="meta">
+            <span>한국경제</span>
+            <a class="read" href="https://www.hankyung.com/article/2026013043561" target="_blank" rel="noopener">원문 보기</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='480'%3E%3Crect width='100%25' height='100%25' fill='%23e6eef8'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter, Noto Sans KR, sans-serif' font-size='28' fill='%230b3b61'%3EFed+%EC%9B%8C%EC%8B%9C%3C/text%3E%3C/svg%3E" alt="Fed 워시"></div>
+        <div class="body">
+          <h3><a href="https://www.hankyung.com/article/202601314965i" target="_blank" rel="noopener">Fed 신임 의장 워시 지명 파장</a></h3>
+          <p>워시 지명 소식에 달러 강세·장기금리 상승·금·은 급락 등 글로벌 금융시장에 충격이 발생. 향후 통화정책 경로 불확실성 확대.</p>
+          <div class="meta">
+            <span>한국경제</span>
+            <a class="read" href="https://www.hankyung.com/article/202601314965i" target="_blank" rel="noopener">원문 보기</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='480'%3E%3Crect width='100%25' height='100%25' fill='%23e6eef8'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter, Noto Sans KR, sans-serif' font-size='36' fill='%230b3b61'%3E%EC%B0%A9%EA%B3%B5%3C/text%3E%3C/svg%3E" alt="착공"></div>
+        <div class="body">
+          <h3><a href="https://www.hankyung.com/article/2026013042341" target="_blank" rel="noopener">6만가구 중 내년 착공 5%뿐…\"착공은 더딜 것\"</a></h3>
+          <p>정부의 대규모 공급계획에도 불구하고 내년 착공 가능한 물량은 5% 정도에 불과해 체감효과는 제한적이라는 분석.</p>
+          <div class="meta">
+            <span>한국경제</span>
+            <a class="read" href="https://www.hankyung.com/article/2026013042341" target="_blank" rel="noopener">원문 보기</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="media"><img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='480'%3E%3Crect width='100%25' height='100%25' fill='%23e6eef8'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter, Noto Sans KR, sans-serif' font-size='36' fill='%230b3b61'%3E%EC%9B%94%EC%84%B8%3C/text%3E%3C/svg%3E" alt="월세"></div>
+        <div class="body">
+          <h3><a href="https://www.hankyung.com/article/2026013042361" target="_blank" rel="noopener">월세비중 60% 넘어…인허가·착공 모두 감소</a></h3>
+          <p>전세의 월세화가 가속되며 월세 거래 비중이 60%를 넘어섰고, 인허가·착공 지표도 감소해 공급 리스크가 지속.</p>
+          <div class="meta">
+            <span>한국경제</span>
+            <a class="read" href="https://www.hankyung.com/article/2026013042361" target="_blank" rel="noopener">원문 보기</a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+</body>
+</html>
